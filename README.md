@@ -1,6 +1,6 @@
-## Arithmetic-Formatter
+# Arithmetic-Formatter
 
-##Description :
+## Description :
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
 
@@ -28,9 +28,11 @@ arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 
 Output:
 
+<img width="281" alt="image" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/6c71d6c6-732d-4b85-ac06-0d027d6be45d">
 
 
-##Rules : 
+
+## Rules : 
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 
