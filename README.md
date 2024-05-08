@@ -1,9 +1,10 @@
 ## Arithmetic-Formatter
 
-#Description :
+##Description :
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
-![<img width="89" alt="a1" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/7b1131bd-a862-41fd-85b5-cc68b8494032">]
+
+<img width="89" alt="a1" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/7b1131bd-a862-41fd-85b5-cc68b8494032">
 
 
 
@@ -17,7 +18,7 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 
 Output:
 
-![<img width="280" alt="image" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/73823837-1247-4ddf-b6fb-828aacaaa41c">]
+<img width="280" alt="image" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/73823837-1247-4ddf-b6fb-828aacaaa41c">
 
 
 
@@ -29,7 +30,7 @@ Output:
 
 
 
-#Rules : 
+##Rules : 
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 
