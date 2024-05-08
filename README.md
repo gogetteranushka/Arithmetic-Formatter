@@ -1,12 +1,12 @@
-# Arithmetic-Formatter
+## Arithmetic-Formatter
 
-Description :
+#Description :
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
+![<img width="89" alt="a1" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/7b1131bd-a862-41fd-85b5-cc68b8494032">]
 
-  235
-+  52
------
+
+
 
 Finish the arithmetic_arranger function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed.
 
@@ -17,25 +17,23 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 
 Output:
 
-   32      3801      45      123
-+ 698    -    2    + 43    +  49
------    ------    ----    -----
+![<img width="280" alt="image" src="https://github.com/gogetteranushka/Arithmetic-Formatter/assets/109903993/73823837-1247-4ddf-b6fb-828aacaaa41c">]
+
+
 
 Function Call:
 
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
+
 Output:
 
-  32         1      9999      523
-+  8    - 3801    + 9999    -  49
-----    ------    ------    -----
-  40     -3800     19998      474
-  
-Rules : 
+
+
+#Rules : 
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 
-Situations that will return an error :
+#Situations that will return an error :
 
 1. If there are too many problems supplied to the function. The limit is five, anything more will return: 'Error: Too many problems.'
 2. The appropriate operators the function will accept are addition and subtraction. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: "Error: Operator must be '+' or '-'."
